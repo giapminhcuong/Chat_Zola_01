@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "148505866616",
+    "firebase_url": "https://chatzola01-f893a.firebaseio.com",
+    "project_id": "chatzola01-f893a",
+    "storage_bucket": "chatzola01-f893a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148505866616:android:ea9f0595d9a4c198",
+        "android_client_info": {
+          "package_name": "com.framgia.arutalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148505866616-1a2vf6c60i5ors2849emo3el9jb0lgvp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.framgia.arutalk",
+            "certificate_hash": "5c2387addfb958abe0aacc05acc9facb71c397fb"
+          }
+        },
+        {
+          "client_id": "148505866616-qdp22a5n01ht9b7742dchm69168bms0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGBy8hrcoXjmM-7dZR2Ue13pmK_WcWqAQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148505866616-qdp22a5n01ht9b7742dchm69168bms0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
