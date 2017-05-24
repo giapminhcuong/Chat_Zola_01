@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Aru Talk</string>
+    <string name="msg_email">Email</string>
+    <string name="msg_password">Password</string>
+    <string name="hint_password">at least 6 characters</string>
+    <string name="msg_confirm_password">Confirm Password</string>
+    <string name="title_first_name">First Name</string>
+    <string name="title_last_name">Last Name</string>
+    <string name="title_gender">Gender</string>
+    <string name="title_male">Male</string>
+    <string name="title_female">Female</string>
+    <string name="title_register">Register</string>
+    <string name="msg_wrong_confirm_password">Wrong Confirm Password</string>
+    <string name="title_wrong_password">Password</string>
+    <string name="title_success_register">Register Successful</string>
+    <string name="msg_success_register">Congratulations on successful registration</string>
+    <string name="title_loading_registing">Registing</string>
+    <string name="msg_loading_registing">Please wait a second</string>
+    <string name="title_register_faild">Error Register</string>
+    <string name="msg_register_faild">Registration failed!</string>
+    <string name="title_error_upload_avatar">Error Uploading</string>
+    <string name="msg_error_upload_avatar">Uploading avatar is failed</string>
+    <string name="title_upload_avatar_success">Upload Successful</string>
+    <string name="msg_upload_successful">Upload avatar successully</string>
+    <string name="msg_processing_avatar">Please wait a second! Processing avatar ...</string>
+    <string name="title_empty_input_register">Empty</string>
+    <string name="msg_empty_input_register">Check the empty fields please !</string>
+    <string name="hint_email">example@gmail.com</string>
+    <string name="msg_upload_avatar_successful">Upload avatar successfully</string>
 </resources>
