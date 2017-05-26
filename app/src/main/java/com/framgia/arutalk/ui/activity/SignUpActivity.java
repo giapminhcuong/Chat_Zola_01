@@ -205,13 +205,22 @@ public class SignUpActivity extends BaseActivity implements View.OnClickListener
             mUser = makeUser();
             writeUserToDatabase(mUser);
             resetUi();
+            // jump to main activity
+            String msg = getString(R.string.msg_success_register);
+            Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
+            finish();
         }
         // else register faild
         else {
             String title_register_faild = getString(R.string.title_register_faild);
-            String msg_register_faild = getString(R.string.msg_register_faild);
+            String msg_register_faild = getErrorMessage(task);
             showDialog(title_register_faild, msg_register_faild);
         }
+    }
+
+    private String getErrorMessage(Task<AuthResult> task) {
+        String msg = task.getException().toString();
+        return msg.split(Constant.REGEX_SPLIT_ERROR_SIGN_IN)[1].trim();
     }
 
     private void uploadAvatarToStorage() {

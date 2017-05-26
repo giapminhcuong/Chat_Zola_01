@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Aru Talk</string>
+    <string name="app_name">Zola</string>
     <string name="msg_email">Email</string>
     <string name="msg_password">Password</string>
     <string name="hint_password">at least 6 characters</string>
@@ -27,4 +27,11 @@
     <string name="msg_empty_input_register">Check the empty fields please !</string>
     <string name="hint_email">example@gmail.com</string>
     <string name="msg_upload_avatar_successful">Upload avatar successfully</string>
+    <string name="title_sign_in">Sign In</string>
+    <string name="msg_ask_have_account">Do not have an account?</string>
+    <string name="title_invalid_input_sign_in">Input</string>
+    <string name="msg_invalid_input_sign_in">Invalid input</string>
+    <string name="title_sign_in_faild">Sign in faild</string>
+    <string name="msg_sign_in_faild">Sign in faild</string>
+    <string name="msg_signing_in">Please wait a second ...</string>
 </resources>

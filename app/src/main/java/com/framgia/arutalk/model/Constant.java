@@ -6,6 +6,7 @@ package com.framgia.arutalk.model;
 
 public class Constant {
     public final static String PACKAGE_NAME = "com.framgia.arutalk";
+    public final static String REGEX_SPLIT_ERROR_SIGN_IN = ":";
 
     public class Storage {
         public final static String AVATARS = "avatars";

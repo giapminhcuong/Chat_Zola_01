@@ -9,4 +9,5 @@
     <dimen name="dp_16">16dp</dimen>
     <dimen name="dp_120">120dp</dimen>
     <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
 </resources>

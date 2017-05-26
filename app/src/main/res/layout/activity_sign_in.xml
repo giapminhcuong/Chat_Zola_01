@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.framgia.arutalk.ui.activity.SignInActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_4"
+            android:background="@drawable/shape_edit_text"
+            android:hint="@string/msg_email"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/dp_8"/>
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_4"
+            android:background="@drawable/shape_edit_text"
+            android:hint="@string/msg_password"
+            android:inputType="textPassword"
+            android:padding="@dimen/dp_8"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linear_sign_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:text="@string/title_sign_in"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="@dimen/dp_120"
+        android:layout_above="@id/text_sign_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:src="@mipmap/ic_launcher"/>
+
+    <Button
+        android:id="@+id/button_sign_in"
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_sign_in"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/dp_20"
+        android:background="@drawable/shape_button_dark"
+        android:text="@string/title_sign_in"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:background="@drawable/shape_button_dark"
+        android:paddingLeft="@dimen/dp_4"
+        android:paddingRight="@dimen/dp_4"
+        android:text="@string/msg_ask_have_account"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"/>
+</RelativeLayout>
